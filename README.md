@@ -1,28 +1,31 @@
 # Olá a todos!
 
-# PyAutoGUI = Automation Piano Tiles
 
-Confira esse script no qual eu realizei em Python que utiliza PyAutoGUI para clicar automaticamente em posições específicas da tela com base na cor do pixel.
+# Piano Tiles Automation
 
-Caso queira conferir, pode acessar o Piano Tiles por esse [link](https://www.agame.com/game/magic-piano-tiles#theatermode)
+O projeto no qual eu realizei consiste em um script de automação para o jogo Piano Tiles. O script usa as bibliotecas `pyautogui`, `keyboard`, `win32api`, e `win32con` para detectar pixels específicos na tela e simular cliques do mouse, permitindo que o jogo seja jogado automaticamente.
 
+Caso queira conferir pode acessar o Piano Tiles nesse [link](https://www.agame.com/game/magic-piano-tiles#theatermode). Te garato que não irá se arrepender, é muito Fantástico!
 
-## Descrição
+## Como Funciona
 
-O script monitora a cor de pixels em posições pré-definidas na tela e realiza cliques automáticos quando esses pixels são pretos (RGB: 0, 0, 0). É útil para automação de tarefas que dependem de mudanças visuais na tela.
-
+O script monitora quatro posições específicas na tela, cada uma representando uma "tecla" no Piano Tiles. Se a cor do pixel em qualquer uma dessas posições for preta (RGB: (0, 0, 0)), o script simula um clique do mouse naquela posição.
 
 ## Pré-requisitos
 
-- Python 3.12.1
-- Bibliotecas Python: `pyautogui`, `keyboard`, `pywin32`
+Antes de executar o script, certifique-se de ter as seguintes bibliotecas instaladas:
+
+- `pyautogui`
+- `keyboard`
+- `win32api`
+- `win32con`
 
 
 ## Instalação
 
 1. Clone meu repositório:
     ```bash
-    git clone https://github.com/nz-cloud/automation_piano_tile.git
+    git clone https://github.com/nz-cloud/automation_piano_tiles.git
     ```
 
 2. Instale as dependências:
@@ -40,11 +43,13 @@ O script monitora a cor de pixels em posições pré-definidas na tela e realiza
 
 2. O script começará a monitorar as posições dos pixels. Para parar o script, pressione a tecla `q`.
 
+
 ## Contribuição
 
 Se você quiser contribuir com o meu projeto, sinta-se à vontade para fazer um fork, criar uma nova branch e enviar um pull request com suas melhorias.
 
 1. Faça um fork do projeto.
+
 2. Crie uma branch para sua feature:
     ```bash
     git checkout -b new-feature
@@ -61,4 +66,4 @@ Se você quiser contribuir com o meu projeto, sinta-se à vontade para fazer um 
 
 ## Licença
 
-Este projeto está licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
