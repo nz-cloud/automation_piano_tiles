@@ -4,6 +4,8 @@
 
 Confira esse script no qual eu realizei em Python que utiliza PyAutoGUI para clicar automaticamente em posições específicas da tela com base na cor do pixel.
 
+Caso queira conferir, pode acessar o Piano Tiles por esse [link](https://www.agame.com/game/magic-piano-tiles#theatermode)
+
 
 ## Descrição
 
